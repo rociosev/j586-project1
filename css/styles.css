@@ -1,0 +1,57 @@
+
+
+.topRow{
+    /*border: 1px solid black;*/
+    background: gray;
+    height: 50px;
+    margin-top: -10px;
+}
+.topCont{
+    float: right;
+    margin-right: -300px;
+    margin-top: -44px;
+    margin-bottom: 0px;
+    height: 50px;
+}
+h1{
+    font-size: 12px;
+}
+.nav{
+    background: black;
+}
+.mainNav{
+    background: inherit;
+    height: 80px;
+    /*width: 300px; don't need this because i have text align. If remove text align then use this.*/
+    text-align: center;
+    margin-right: -45px;
+}
+.bodyCont{
+    background: gray;
+    height: 1000px;
+    margin-right: 100px;
+    padding-left: 8px;
+    padding-right: 0px;
+}
+
+.search{
+    float: right;
+    margin-right: -200px;
+    padding-right: 0px;
+}
+h2{
+    font-family: sans-serif;
+    font-style: oblique;
+}
+.contDash{
+    margin-right: 100px;
+    padding: 0px;
+    background: blue;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.bodyNav{
+    border: 0.5px solid black;
+    
+}
