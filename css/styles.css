@@ -1,3 +1,6 @@
+.a{
+    text-decoration: none;
+}
 
 .topRow{
 height: 50px;
@@ -37,19 +40,23 @@ h1{
     font-size: 10px;
 }
 
-.mainNav-background{
-  background-color: #144771;
-  text-align: center;
-  padding-top: 1px;
-}
+
 
 .mainNav{
+    background-color: #144771;
     height: 80px;
     /*width: 300px; don't need this because i have text align. If remove text align then use this.*/
     text-align: center;
     margin-right: -45px;
     background-color: #144771;
     text-align: center;
+    padding-top: 1px;
+}
+
+    
+.icons{
+    display: inline-block;
+    margin-top:8px;
 }
 
 .search-cont{
@@ -191,18 +198,18 @@ h1{
     border-bottom: 1pt solid #cccccc;
 }
 .reach{
-    padding-right: -12px;
+    padding-right: 12px;
 }
 /*Recommendations ************************************************************************************************************/
 .recommendations-box{
     border-bottom: #cccccc;
-    padding-bottom: 55px;
+    /*padding-bottom: 55px;*/
     padding-top: 15px;
     min-height: 79px;
 }
 .h2{
      margin-top: 20px;
-     margin-bottom: 10px;
+    /* margin-bottom: 10px;*/
      font-family: myriad pro;
     color:  #2298f4;;
     font-size: 20pt;
@@ -213,12 +220,13 @@ h1{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 12pt;
     color: #959595;
+    
 }
 .rec-story{
     font-size: 12pt;
     border-bottom: 1pt dotted;
-    padding-bottom: 55px;
-    height: 79px;
+    padding-bottom: 5px; 
+   /* height: 79px;*/
     color: #959595;
 }
 
@@ -240,6 +248,12 @@ h1{
 }
 .analytics-graph{
     color: #999999;
+    
+}
+.charts
+{
+    width: 60%;
+    display: inline;
 }
 .analytics-title{
     color: #208ee6;
@@ -262,15 +276,16 @@ h1{
     padding-bottom: 3px;
 }
 .side-charts{
-    padding-left: 20px;
-    border-left: 5px solid #cccccc;
+   /* padding-left: 20px;*/
+    border-left: 5px solid #cccccc; 
     height: 300px;
     padding-top: 30px;
 }
+
 .social-media{
     float: left;
-    padding-left: 350px; 
-    padding-right: 10px;
+   /* padding-left: 350px; 
+    padding-right: 10px;*/
     display: block;
     padding-top: 20px;
 }
