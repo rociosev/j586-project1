@@ -1,0 +1,43 @@
+.dash-1-1, .dash-2-1, .dash-3-1, .dash-3-2, .dash-2-2, .dash-1-2{
+	background: url(sprites.png) no-repeat;
+}
+
+.dash-1-1, a:active {
+	background-position: 10px -100px ;
+	width: 68px;
+	height: 61px;
+}
+.dash-1-1, a:hover{
+	background-position: -150px -51.00001525878906px ;
+	width: 68px;
+	height: 61px;
+}
+
+.dash-2-1 {
+	
+	background-position: 10px -1.00001525878906px ;
+	width: 68px;
+	height: 61px;
+	
+}
+.dash-2-1{
+	background-position: -149px -249px ;
+	width: 68px;
+	height: 61px;
+}
+
+.dash-3-1 , a:active{
+	padding: 2px;
+	background-position: 20px -241.9875030517578px ;
+	width: 68px;
+	height: 61px;
+}
+
+.dash-3-1, a:hover{
+	background-position: -150px -150.00001525878906px  ;
+	width: 68px;
+	height: 61px;
+}
+
+
+

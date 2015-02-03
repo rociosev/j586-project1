@@ -1,10 +1,23 @@
 
-
 .topRow{
-    /*border: 1px solid black;*/
-    background: gray;
-    height: 50px;
-    margin-top: -10px;
+height: 50px;
+margin-top: -10px;
+background-color: #208ee6;
+text-align: right;
+color: white;
+height: 44px;
+padding-top: 10px;
+padding-right: 80px;
+font-size: 10pt;
+padding-bottom: 10px;
+}
+
+.mini-raleigh{
+    font-weight: bold;
+    color: white;
+}
+.question{
+    color: white;
 }
 .topCont{
     float: right;
@@ -13,45 +26,452 @@
     margin-bottom: 0px;
     height: 50px;
 }
+
+.settings{
+  color: #1c85d8;
+  font-size:13px;
+  padding-left:5px;
+  padding-right:5px;
+}
 h1{
-    font-size: 12px;
+    font-size: 10px;
 }
-.nav{
-    background: black;
+
+.mainNav-background{
+  background-color: #144771;
+  text-align: center;
+  padding-top: 1px;
 }
+
 .mainNav{
-    background: inherit;
     height: 80px;
     /*width: 300px; don't need this because i have text align. If remove text align then use this.*/
     text-align: center;
     margin-right: -45px;
+    background-color: #144771;
+    text-align: center;
 }
-.bodyCont{
-    background: gray;
-    height: 1000px;
-    margin-right: 100px;
-    padding-left: 8px;
-    padding-right: 0px;
+
+.search-cont{
+    float: right;
+    padding-top: 18px;
+    border-radius: 10px;
+ margin-left: -30px;
+     margin-right: -150px;    
+   padding-left: 15px;
+    padding-bottom: 5px; 
 }
 
 .search{
-    float: right;
-    margin-right: -200px;
-    padding-right: 0px;
-}
-h2{
-    font-family: sans-serif;
-    font-style: oblique;
-}
-.contDash{
-    margin-right: 100px;
-    padding: 0px;
-    background: blue;
-    height: 50px;
-    margin-bottom: 10px;
+    margin-left: -15px;
+    height: 28px;
+    display: inline-block;
 }
 
-.bodyNav{
-    border: 0.5px solid black;
+
+.row2{
+    background-color: #33cc66;
+    border: 2px;
+    border-radius: 10px;
+    margin-left: 20px;
+     margin-right: 20px;   
+}
+
+.contDash{
+    color:white;
+    font-size: 25pt;
+    padding-top: 5px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    border: 2px solid #33cc66;
+}
+
+/* Main Body ****************************************************************************************/
+.gray-gradient{
+    margin-top: 10px;
+    margin-left: -10px;
+    padding-bottom: 0px;
+    background: #f5f5f5;
+    background-image: linear-gradient(#f5f5f5,#ffffff);
+    border-radius: 10px;
+    padding-left:25px;
+    padding-right:25px;
     
+}
+    
+.white-body{
+    background: #ffffff;
+}
+    
+.bodyCont{
+    background: #ffffff;
+}
+.announcements{
+    color: #ff9b13;
+    float: left;
+   /* position: relative; 
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;*/
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid  #cccccc;
+    height: 3.5em;
+}
+
+.text{
+   /*  padding-top: 15px;*/
+    border: 1px solid #cccccc;
+    color: #cccccc;
+    height: 3.5em;
+}
+
+.arrows{
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid  #cccccc;
+     height: 3.5em;
+    
+}
+.main-section{ /*adds border to tasks section */
+    border-left: solid #cccccc;
+    border-right: solid #cccccc;
+    border-bottom: solid #cccccc;
+    border-top: 0.5px solid  #cccccc; 
+}
+.tasks{ /*refers to the div that contains all the tasks and the title*/
+    background: #ffffff;
+    color: #2298f4;
+    font-size: 20pt;
+    font-family: Myriad pro;
+    margin-bottom: 10px;
+    border-left: 1px solid #cccccc;
+    /*border-bottom: 1px solid #cccccc;*/
+    border-right: 0.5px solid #cccccc;
+    /* Border right is covered by the analytics border.
+     * Border top is covered by the announcements.*/
+   /* height: 1000px; */
+}
+.task-header{
+   padding-top: 10px;
+}
+.tasks-settings{
+    float: right;
+}
+.tasks-text{ /*refers to sub-categories in Tasks*/
+    font-size: 14px;
+    font-family: myriad Pro;
+}
+.task-current{
+    color: #cccccc;
+   /* border-bottom: 1pt solid #cccccc;*/
+    padding: 10px; 
+    padding-top: 15px; 
+    padding-bottom: 20px;
+}
+.task-other{
+   /* border-bottom: 1pt solid #cccccc; */
+    padding: 10px; 
+    padding-top: 15px; 
+    padding-bottom: 20px;
+     color:  #2298f4;
+}
+
+.people{
+    border: 1pt solid #cccccc;
+    border-radius: 3px;
+    padding: 5px;
+    float: right;
+    margin-bottom: 0px;
+}
+.bottom-border{
+    border-bottom: 1pt solid #cccccc;
+}
+.reach{
+    padding-right: -12px;
+}
+/*Recommendations ************************************************************************************************************/
+.recommendations-box{
+    border-bottom: #cccccc;
+    padding-bottom: 55px;
+    padding-top: 15px;
+    min-height: 79px;
+}
+.h2{
+     margin-top: 20px;
+     margin-bottom: 10px;
+     font-family: myriad pro;
+    color:  #2298f4;;
+    font-size: 20pt;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.rec-title{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+    color: #959595;
+}
+.rec-story{
+    font-size: 12pt;
+    border-bottom: 1pt dotted;
+    padding-bottom: 55px;
+    height: 79px;
+    color: #959595;
+}
+
+/*analytics sections *************************************************************************************************************/
+.analytics{
+     background: #ffffff;
+    font-size: 20pt;
+    font-family: Myriad pro;
+    margin-bottom: 10px;
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    padding-top: 10px;
+    color: #208ee6;
+    /*height: 1000px; */
+}
+.analytics-graph-main{
+    margin-top: -50px;
+    width: 90%;
+}
+.analytics-graph{
+    color: #999999;
+}
+.analytics-title{
+    color: #208ee6;
+    font-size: 20pt;
+}
+.activity{
+    color: #999999;
+    font-size: 10px;
+}
+.analytics-graph{
+    color: #999999;
+    text-align: center;
+    padding-right: 10px;
+}
+.dropdown{
+    float: right;
+    display: inline-block;
+    padding-top: 2px;
+    padding-left: 12px;
+    padding-bottom: 3px;
+}
+.side-charts{
+    padding-left: 20px;
+    border-left: 5px solid #cccccc;
+    height: 300px;
+    padding-top: 30px;
+}
+.social-media{
+    float: left;
+    padding-left: 350px; 
+    padding-right: 10px;
+    display: block;
+    padding-top: 20px;
+}
+.checkbox{
+    padding-top: 30px;
+    float: right;
+    display: inline-block;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+
+/*Contacts and customers**************************************************************************************************/
+.box{
+    width: 212px;
+    height: 220px;
+    border: 1px solid #cccccc;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px .5px #C9C9C9;
+    
+}
+
+.person-one{
+    padding-left: 100px;
+ 
+}
+.person-two{
+    padding-left: 100px;
+}
+
+.person-green{
+    padding-left: 60px;
+   /* padding-top: 50px;*/
+   margin-top:  -25px;
+    position: relative;
+
+}
+.person-orange{
+    padding-left: 60px;
+    margin-top:  -25px;
+    position: relative;
+}
+.banner-one{
+background-color: #2298f4;
+color: white;
+height: 50px;
+line-height: .5EM;
+margin-top: 0px;
+margin-bottom: 12px;
+text-align: center;
+width: 213px;
+}
+.banner-one-text{
+    padding-top: 15px;
+}
+.banner-one-text-two{
+    font-size: 10px;
+}
+.banner-one-flag-left{
+    margin-top: -110px;
+    margin-left: -15px;
+}
+.banner-one-flag-right{
+    margin-top: -188px;
+    margin-left: 207px;
+}
+.line-graph{
+    margin-top: -105px;
+    display: block;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+.line{
+    margin-top: 40px;
+    border-bottom: 1px solid #cccccc;
+}
+/* DID YOU KNOW *************************************************************************************************/
+.did-you-know-banner{
+border-radius: 10px;
+background-color: #2298f4;
+height: 180px;
+width: 700px; 
+padding: 20px;
+padding-top: 40px;
+padding-left: 60px;
+line-height: 60%;
+}
+.did-you-know-header{
+    text-align: left;
+    color: white;
+    font-family: myriad pro;
+    font-size: 11pt;
+}
+.did-you-know-text{
+    text-align: left;
+    color: white;
+    font-family: myriad pro;
+    font-size: 15pt;
+}
+.did-you-know-arrow-left{
+    margin-left: -75px;
+    margin-top: -140px;
+}
+.did-you-know-arrow-right{
+    margin-left: 615px;
+    margin-top: -170px;
+}
+
+/* ADS***********************************************************************************************************************************/
+.ads{
+    margin-left: 20px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #2298f4;
+    height: 100%;
+    width: 98%;
+    padding: 20px;
+    padding-right:40px;
+    padding-left: 100px;
+    line-height: 60%;
+    min-height: 79px;
+     text-align: center;
+}
+.white-box{
+    width: 280px;
+    margin-top: 5px;
+    height: 161px;
+    border-radius: 10px;
+    background-color: white;
+    margin-right: 40px;
+    position: relative;
+    box-shadow: 1px 2px 1px #000;
+}
+.ads-pic1{
+    margin: 0px 0 0 -15px;
+}
+.ads-pic2{
+    margin: -11px -100px 0px -10px;
+right: 95px;
+    position: absolute;
+}
+.ads-pic3{
+    margin: -1.5px 0 -20px -6px;
+    right: -3px;
+    position: absolute;
+}
+/*FOOTER ***********************************************************************************************************************************/
+.footer-box{
+    height: 50px;
+    font-size: 8pt;
+    color: #9f9f9f;
+    margin-top: 35px;
+    background-color: #ffffff;
+    margin-left: -50px;
+    margin-bottom: -20px;
+}
+.footer-left-side{
+height: 50px;
+float: right;
+padding-top: 15px;
+padding-bottom: 16px;
+padding-right: 20px; 
+ border-right: 1pt solid #cccccc;
+}
+.tutorials, .support, .blog, .bar-bottom{
+    color: #cccccc;
+}
+.footer-center{
+    text-align: center;
+    border-right: 1pt solid #cccccc;
+    padding-top: 15px;
+    padding-bottom: 16px;
+}
+.h1{
+    font-size: 8pt;
+}
+.h4{
+   color:#208ee6;
+   font-weight: bold;
+}
+.arrow-bottom{
+    padding-top: 5px;
+    padding-bottom: 16px;
+    float: right;
+}
+.logout-pic{
+    padding-top:10px;
+}
+.logout{
+    color:#208ee6;
+   font-weight: bold;
+   padding-left: 30px;
+   padding-right: 20px;
+}
+.logout-box{
+    border-right: 1px solid #cccccc;
+}
+.social-media-icons{
+    border-right: 1px solid #cccccc;
+}
+.footer-right{
+    border-left: 1px solid #cccccc;
 }

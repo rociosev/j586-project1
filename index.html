@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>index</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
       <link href="css/styles.css" rel="stylesheet">
+         <link href="sprites/sprites.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -18,53 +19,274 @@
   </head>
   <body>
     <div class="row topRow">
-     <div class="col-md-12"> 
-    <h1>Header</h1>
-    <div class="container col-md-7 topCont">
-      <div class="col-md-3">
-        <h1>MINI of Raleigh</h1>
-        </div>
-      <div class="row col-md-2">
-        <h1>???</h1>
-        </div>
-      <div class="row col-md-2">
-        <h1>settings</h1>
-        </div>
-      </div>
+       <div><a href="#" class="mini-raleigh">
+       MINI of Raleigh</a>
+        <span class="bar">|</span>
+        <span class="question"><a href="#" class="question"> ? </a></span>
+        <span class="bar">|</span><a href="#"><img src="images/settings.png" alt="settings-logo"></a></div>
+  
     </div>
-</div>
- <div class="row col-md-12">
+ <div class="row  mainNav-background mainNav">
   <div class="nav">
-  <div class="container  mainNav">
-    <h1>Main Navigation images and arrow</h1>
-  </div>
- </div>
+ <!--<div class="container">-->
+    <img class="dash-1-1" src="images/dash-1-1.png" alt="dash-1"> <a href="#"></a>
+    <img class="dash-3-1" src="images/dash-3-1.png" alt="dash-3">
+    <img class="dash-2-1" src="images/dash-2-1.png" alt="dash-2">
+  
+ </div> 
+</div>
+   <br>
+  
+<!-- Dashboard "menu" ----------------------->
+<div class="container"> 
+<div class=" row row2 ">
+  <div class="col-lg-6 col-md-6 col-xs-6 contDash"> Dashboard </div>
+    <div class="col-lg-6 col-md-6 col-xs-6 search-cont"> <!--  Both searhc items together. The input box and the button-->
+       <input type="text" class="text-box"> <!--  Actual box where the text goes-->
+                  <button type="submit" class="btn btn-default search"> <!-- Deals with the actual submit button, -->
+                    <i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+    </div>
+
+<div class="gray-gradient">
+<br>
+<!-- Main body ----------------------->
+<!-- container ------------------>
+
+<div class=" row bodyCont"> <!-- This div has the announcements, text and arrows of the "top"-->
+    <div class="col-lg-2 col-md-2 col-xs-12  bodyNav announcements">
+      <h1 class=announcement.text>ANNOUNCEMENTS</h1>
+    </div>
+    <div class="col-lg-9 col-md-9 col-xs-12 bodyNav text">
+      <h1>Sociis natoque dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</h1>
+    </div>
+    <div class="col-lg-1 col-md-1 col-xs-12 bodyNav arrows">
+        <a href="#"> <img src=images/arrows.png alt="arrows"></a>
+    </div>
 </div>
 
 
-****************************************
-<div class=" container contDash">
-  <div class="row col-md-6">
-    <h2>dashboard</h2>
-  </div>
-    <div class="col-md-6 search">
-      <h1>search</h1>
+<!--<div class= "main-section"> ------------------------>
+  <!-- Tasks -->
+  <div class="row">
+  <div class= " tasks col-lg-4 col-md-4 col-sm-12">
+    <span class="tasks-settings">
+      <a href="#"> <img src=images/tasks-settings.png alt="task-settings"></a>
+    </span>
+  <div class="task-header">    
+     <span class="Tasks"><a href="#" class="Tasks"> Tasks </a></span>
+    </div> 
+     <div class="row bottom-border">
+    <div class="tasks-text task-current">
+       <span class="welcome task-current"><a href="#" class="welcome task-current"> Welcome Contacts </a></span>
+      <span class="people"><img src=images/person-gray.png alt="person-gray"><a href="#"></a>
+      32
+  </span>
     </div>
+     </div>
+      <div class="row bottom-border">
+    <div class="tasks-text task-other"><a href="#" class="provide task-other"> Provide Responces </a>
+    <span class="people"> <img src=images/person-blue.png alt="person-blue"><a href="#"></a>
+    36
+    </span>
   </div>
+      </div>
+       <div class="row bottom-border">
+  <div class="tasks-text task-other"><a href="#" class="review task-other"> Review Activity </a>
+      <span class="people"> <img src=images/person-blue.png alt="person-blue"><a href="#"></a>
+    36
+      </span>
+  </div>
+       </div>
+        <div class="row bottom-border">
+  <div class="tasks-text task-other"><a href="#" class="reach task-other"> Reach out </a>
+      <span class="people reach"><img src=images/person-blue.png alt="person-blue"><a href="#"></a>
+        3
+    </span>
+  </div>
+        </div>
+ 
 
-<div class="container bodyCont">
-  <div class="row col-md-12 ">
-    <div class="col-md-3 bodyNav">
-      <h1>announcements</h1>
-    </div>
-    <div class="col-md-7 bodyNav">
-      <h1>TEXT</h1>
-    </div>
-    <div class="col-md-2 bodyNav">
-       <h1>arrows</h1>
-    </div>
+  <!-- Recommendations------->
+ <!-- <div class="col-md-4"> -->
+ <div class="row"> <!-- row for recomm and contacts people -->
+  <div class="col-lg-12 col-md-12 col-sm-12">
+    <h2>Recommendations</h2>
+   <div class="recommendations-box">
+     <div class=rec-title>Article</div>
+      <div class="rec-story"> 
+      <span class= notebook-logo> <img src="images/notebook-logo.png" alt="notebook-logo"></span>
+      7 steps to getting more Fans
+      </div>
+    <div class=rec-title>Article</div>
+      <div class="rec-story"> <img src="images/notebook-logo.png" alt="notebook-logo">
+      Increase traction with more interactions
   </div>
+    <div class=rec-title>Checklist</div>
+      <div class="rec-story"> <img src="images/check-mark-icon.png" alt="notebook-logo">
+      Creating a Promotion
+  </div>
+    <div class=rec-title>Tip</div>
+      <div class="rec-story"> <img src="images/lightbulb-icon.png" alt="notebook-logo">
+      Share More
+      </div>
+  </div>
+  </div> <!-- end column six, recommendations-->
+</div> <!--ends row #2. row of recommenadatio and of people-->
+  
+  </div><!--ends column lg4 -->
+  <!-- Analytics section -------------->
+  <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 analytics title ">
+    <p>Analytics</p>
+    <div class= "col-lg-9 col-md-9 col-xs-9 col-xs-9 activity">
+      <p>ACTIVITY</p>
+        <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" >
+    06/28/11 - 07/21/11
+    <span><img src="images/orange-arrow.png" alt=orange-arrow></span>
+  </button>
+  <ul class="dropdown-menu" role="menu" >
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">07/22/11 - 08/20/11</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">08/21/11 - 09/23/11</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">09/24/11 - 10/25/11</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">10/26/11 - 11/26/12</a></li>
+  </ul>
+  </div>
+    <div>
+      <img class= "analytics-graph analytics-graph-main" src= images/analytics-graph.png alt="analytics-graphics">
+    </div>
+    </div>
+  <div class="side-charts analytics-graph col-lg-3 col-md-3 col-sm-3 col-xs-3">
+    <p> CHANNELS </p>
+  <img class= "analytics-graph" src= images/side-chart1.png alt="side-chart1">
+    <br>
+    <p>REFERRALS</p>
+    <img class= "analytics-graph" src= images/side-chart2.png alt="side-chart2">
+  </div>
+  
+  
+ <!-- row of social media----------------------->
+ <div class="row">
+<div class="social-media col-lg-12 col-md-12 col-sm-12 col-xs-12">
+  <label>
+     <input type="checkbox">
+      <img class="social-media-logos" src= images/fb.png alt="fb">
+       </label>
+  <label>
+        <input type="checkbox">
+      <img class="social-media-logos" src= images/twitter.png alt="fb">
+        </label>
+        <input type="checkbox">
+      <img class="social-media-logos" src= images/foursquare.png alt="fb">
+        <label>
+        <input type="checkbox">
+      <img class="social-media-logos" src= images/google.png alt="fb">
+  </label>
 </div>
+  </div> <!-- ends social media row-->
+
+  <!-- Contacts and influencers---------------------->
+   <div class="row">
+  <div class="col-lg-6 col-md-6 col-sm-6">
+    <div class= "person-one">
+      <div class="box">
+  <img class="person-green" src="images/person-green.png" alt="person-green">
+    <div class='banner-one'>
+  <p class="banner-one-text">75 CONTACTS</p>
+  <p class="banner-one-text-two"> 4 INFLUENCERS </p>
+</div>
+    <img class="banner-one-flag-left" src="images/banner-left.png" alt="side-of-banner">
+   <img class="banner-one-flag-right" src="images/banner-right.png" alt="side-of-banner">
+      <img class="line-graph" src="images/line-graph-green.png" alt="line-graph-green">
+</div>
+    </div>
+   </div>
+    <div class=" col-lg-6 col-md-6 col-sm-6 person-two">
+      <div class="box">
+  <img class="person-orange" src="images/person-orange.png" alt="person-orange">   
+    <div class='banner-one'>
+  <p class="banner-one-text">17 CUSTOMERS</p>
+  <p class="banner-one-text-two"> 0 INFLUENCERS </p>
+</div>
+    <img class="banner-one-flag-left" src="images/banner-left.png" alt="side-of-banner">
+   <img class="banner-one-flag-right" src="images/banner-right.png" alt="side-of-banner">
+      <img class="line-graph" src="images/line-graph-orange.png" alt="line-graph-orange">
+</div>
+    </div> <!-- ends column 4/6 person2 -->
+   </div> <!-- ends the row of people-->
+    <!-- Did you know box------------------>
+<div class="row"> <!-- Starts Did you know row"-->
+<!--<div class= "line col-lg-12- col-md-8 col-sm-4 col-xs-12"></div> -->
+    <div class="did-you-know col-lg-12 col-md-12 hidden-xs hidden-sm">
+  <br>
+      <div class="did-you-know-banner">
+        <p class="did-you-know-header"> DID YOU KNOW?</p>
+          <div class="did-you-know-text">
+        <p> Maecenas sed diam eget risus varius blandit sit amet mon magna. </p>
+        <p> Lorem ipsum dolor sit amer, consectetur adipiscing elit. Etiam porta</p>
+        <p>sem malesuada magna mollis eusismod.</p>
+        </div>
+        <img class="did-you-know-arrow-left" src="images/did-you-know-arrow-left.png" alt="arrow-left">
+          <img class="did-you-know-arrow-right" src="images/did-you-know-arrow-right.png" alt="arrow-right">
+</div>
+</div>
+      </div> <!-- ends row of did you know-->    
+</div> <!-- ends column 8-->
+    </div> <!-- ends row of tasks and analytics-->
+
+ <!-- ads------------------------------->
+<div class="row">
+  <div class="ads col-lg-12 col-md-12 col-xs-12">
+ <div class="row">
+        <div class="white-box col-lg-4 col-md-4">
+         <a href="#"><img class="ads-pic1" src="images/ads-pic1.png" alt="ads-1"> </a>
+         </div> 
+        <div class="white-box col-lg-4 col-md-4">
+         <a href="#"> <img class="ads-pic2" src="images/ads-pic2.png" alt="ads-2"> </a>
+         </div> 
+        <div class="white-box col-lg-4 col-md-4">
+          <a href="#"><img class="ads-pic3" src="images/ads-pic3.png" alt="ads-3"> </a>
+        </div>
+  </div> <!-- ends row for each of the adpics-->
+    </div> <!-- ends row of ads -->
+        </div> <!-- ends all of the container-->
+</div>
+</div> <!-- greay gradient box ends-->
+        
+     <!-- FOOTER-------------------------->
+    <div class= "line col-lg-12 col-md-12">
+        <div class="row footer-box">
+            <div class="col-lg-3 col-md-3 col-xs-3">
+       <div class="footer-left-side"><a href="#" class="tutorials"> <span class="tutorials"> Tutorials </span></a>
+        <span class="bar-bottom">|</span>
+       <a href="#" class="support"> <span class="support"> Support </span></a>
+        <span class="bar-bottom">|</span>
+       <a href="#" class="blog"> <span class="blog"> Blog </span></a>
+       </div>
+        </div>
+            <div class="col-lg-5 col-md-5 col-sm-5 footer-center">
+              <a href="#" class="h4"> <span class="Ariel Winter"> Ariel Winter </span></a>
+              <a href="#" class="h1"> <span class="likes"> likes your</span></a>
+              <a href="#" class="h4"> <span class="Sweepstakes"> Win a Sweepstakes Promotion </span></a>
+              <a href="#"><img class="arrow-bottom" src="images/arrow-bottom.png" alt="arrow-bottom"></a></div>
+            <div class="col-lg-1 col-md-1 col-xs-1 logout-box">
+             <span><a href="#"><img class="logout-pic" src="images/logout.png" alt="logout-pic"></a></span>
+             <span class="logout-pic"><a href="#" class="logout"> Logout </a> </span>
+            </div>
+      <div class="col-lg-1 col-md-1 col-md-1 social-media-icons">
+         <span><a href="#"><img class="logout-pic" src="images/facebook.png" alt="facebook"></a></span>
+             <span><a href="#"><img class="logout-pic" src="images/twitter-footer.png" alt="twitter"></a></span>
+             <span><a href="#"><img class="logout-pic" src="images/social-link.png" alt="social-link"></a></span>
+             <span><a href="#"><img class="logout-pic" src="images/youtube-footer.png" alt="youtube"></a></span>
+            </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 footer-right">
+          
+        </div>
+          
+               </div> <!-- ends row of footer -->
+  
+</div> 
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
